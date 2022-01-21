@@ -1,0 +1,7 @@
+opam-version: "2.0"
+synopsis:
+  "OCamlbuild binary and libraries distributed with the OCaml compiler"
+maintainer: "gabriel.scherer@gmail.com"
+depends: [
+  "ocaml" {>= "3.10" & < "4.03"}
+]

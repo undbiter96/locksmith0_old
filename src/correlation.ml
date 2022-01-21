@@ -655,6 +655,10 @@ let check_race (phiguards: (phi * guard) list) (r: rho) : bool =
     (*ignore(E.log " It is shared, check protection set\n");*)
     let crs = concrete_rhoset (get_rho_p2set_m r) in
     let ls = get_protection_set r in
+    (*let first = List.nth ls 0 in
+    let get_val inst = inst.inst_fun_name in
+    let values = List.map (get_val) ls.lock_path in
+    let () = List.iter (Printf.printf "Element value: %s\n") values in*)
     if (LockSet.is_empty ls) then begin
       if !do_group_warnings then begin
         ignore(E.warn "Possible data race:\n unprotected locations:\n  %a\n references:\n  %a\n"

@@ -1,0 +1,10 @@
+opam-version: "2.0"
+synopsis: "/home/giwrgos/locksmith"
+opam-root: "/home/giwrgos/.opam"
+paths {
+  
+}
+variables {
+  user: "giwrgos"
+  group: "giwrgos"
+}

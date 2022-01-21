@@ -1,0 +1,515 @@
+digraph "initial constraints" {
+node [fontname="Helvetica",fontsize=12];
+"Ew_outputeffect#1380\n/usr/include/stdio.h:332" -> "Ew_inputeffect#1382\n/usr/include/stdio.h:332";
+"Er_outputeffect#1381\n/usr/include/stdio.h:332" -> "Er_inputeffect#1383\n/usr/include/stdio.h:332";
+"#1387\n/usr/include/stdio.h:332" -> "Er_run-singleton#1524\nmytest4.c:45";
+"#1387\n/usr/include/stdio.h:332" -> "Xr_X#1530\nmytest4.c:39";
+"#1388\nmytest4.c:4" -> "#1463\nmytest4.c:23";
+"#1388\nmytest4.c:4" -> "#1528\nmytest4.c:39";
+"#1389\nmytest4.c:4" -> "#1390\nmytest4.c:4";
+"#1389\nmytest4.c:4" -> "Xr_X#1425\nmytest4.c:14";
+"#1389\nmytest4.c:4" -> "Er_e#1462\nmytest4.c:22";
+"#1389\nmytest4.c:4" -> "Er_run-singleton#1524\nmytest4.c:45";
+"#1389\nmytest4.c:4" -> "Xr_X#1530\nmytest4.c:39";
+"#1390\nmytest4.c:4" -> "#1389\nmytest4.c:4";
+"#1391\nmytest4.c:4" -> "Xr_X#1425\nmytest4.c:14";
+"#1391\nmytest4.c:4" -> "Er_e#1462\nmytest4.c:22";
+"#1391\nmytest4.c:4" -> "Er_run-singleton#1524\nmytest4.c:45";
+"#1391\nmytest4.c:4" -> "Xr_X#1530\nmytest4.c:39";
+"#1392\nmytest4.c:5" -> "#1437\nmytest4.c:18";
+"#1392\nmytest4.c:5" -> "#1546\nmytest4.c:49";
+"#1394\nmytest4.c:6" -> "Ew_run-singleton#1523\nmytest4.c:45";
+"#1394\nmytest4.c:6" -> "Er_run-singleton#1524\nmytest4.c:45";
+"#1394\nmytest4.c:6" -> "Xw_X#1529\nmytest4.c:39";
+"#1394\nmytest4.c:6" -> "Xr_X#1530\nmytest4.c:39";
+"#1395\nmytest4.c:7" -> "Xw_X#1424\nmytest4.c:14";
+"#1395\nmytest4.c:7" -> "Xr_X#1425\nmytest4.c:14";
+"#1395\nmytest4.c:7" -> "Er_e#1514\nmytest4.c:32";
+"#1395\nmytest4.c:7" -> "Ew_e#1515\nmytest4.c:33";
+"#1395\nmytest4.c:7" -> "Ew_my_func-singleton#1541\nmytest4.c:58";
+"#1395\nmytest4.c:7" -> "Er_my_func-singleton#1542\nmytest4.c:58";
+"#1395\nmytest4.c:7" -> "Xw_X#1547\nmytest4.c:49";
+"#1395\nmytest4.c:7" -> "Xr_X#1548\nmytest4.c:49";
+"#1396\nmytest4.c:8" -> "#1397\nmytest4.c:8";
+"#1396\nmytest4.c:8" -> "Xw_X#1424\nmytest4.c:14";
+"#1396\nmytest4.c:8" -> "Xr_X#1425\nmytest4.c:14";
+"#1396\nmytest4.c:8" -> "Ew_e#1486\nmytest4.c:20";
+"#1396\nmytest4.c:8" -> "Er_e#1487\nmytest4.c:20";
+"#1396\nmytest4.c:8" -> "Ew_e#1488\nmytest4.c:27";
+"#1396\nmytest4.c:8" -> "Er_e#1489\nmytest4.c:27";
+"#1396\nmytest4.c:8" -> "Ew_e#1490\nmytest4.c:28";
+"#1396\nmytest4.c:8" -> "Er_e#1491\nmytest4.c:28";
+"#1396\nmytest4.c:8" -> "Ew_e#1492\nmytest4.c:29";
+"#1396\nmytest4.c:8" -> "Er_e#1493\nmytest4.c:29";
+"#1396\nmytest4.c:8" -> "Ew_e#1494\nmytest4.c:30";
+"#1396\nmytest4.c:8" -> "Er_e#1495\nmytest4.c:30";
+"#1396\nmytest4.c:8" -> "Er_e#1516\nmytest4.c:33";
+"#1396\nmytest4.c:8" -> "Er_e#1518\nmytest4.c:34";
+"#1396\nmytest4.c:8" -> "Ew_my_func-singleton#1541\nmytest4.c:58";
+"#1396\nmytest4.c:8" -> "Er_my_func-singleton#1542\nmytest4.c:58";
+"#1396\nmytest4.c:8" -> "Xw_X#1547\nmytest4.c:49";
+"#1396\nmytest4.c:8" -> "Xr_X#1548\nmytest4.c:49";
+"#1397\nmytest4.c:8" -> "#1396\nmytest4.c:8";
+"#1398\nmytest4.c:8" -> "Xr_X#1425\nmytest4.c:14";
+"#1398\nmytest4.c:8" -> "Er_e#1487\nmytest4.c:20";
+"#1398\nmytest4.c:8" -> "Er_e#1489\nmytest4.c:27";
+"#1398\nmytest4.c:8" -> "Er_e#1491\nmytest4.c:28";
+"#1398\nmytest4.c:8" -> "Er_e#1493\nmytest4.c:29";
+"#1398\nmytest4.c:8" -> "Er_e#1495\nmytest4.c:30";
+"#1398\nmytest4.c:8" -> "Er_e#1516\nmytest4.c:33";
+"#1398\nmytest4.c:8" -> "Er_e#1518\nmytest4.c:34";
+"#1398\nmytest4.c:8" -> "Er_my_func-singleton#1542\nmytest4.c:58";
+"#1398\nmytest4.c:8" -> "Xr_X#1548\nmytest4.c:49";
+"#1399\nmytest4.c:9" -> "Xw_X#1424\nmytest4.c:14";
+"#1399\nmytest4.c:9" -> "Ew_e#1517\nmytest4.c:34";
+"Xw_X#1400\nmytest4.c:11" -> "Xw_X#1529\nmytest4.c:39";
+"Xr_X#1401\nmytest4.c:11" -> "Xr_X#1530\nmytest4.c:39";
+"Ew_outputeffect#1402\nmytest4.c:11" -> "Ew_run-singleton#1523\nmytest4.c:45";
+"Er_outputeffect#1403\nmytest4.c:11" -> "Er_run-singleton#1524\nmytest4.c:45";
+"Ew_inputeffect#1404\nmytest4.c:11" -> "Ew_run-singleton#1523\nmytest4.c:45";
+"Er_inputeffect#1405\nmytest4.c:11" -> "Er_run-singleton#1524\nmytest4.c:45";
+"#1406\nmytest4.c:11" -> "#1528\nmytest4.c:39";
+"#1407\nmytest4.c:11" -> "#1526\nmytest4.c:39";
+"#1408\nmytest4.c:11" -> "#1525\nmytest4.c:39";
+"#1409\nmytest4.c:11" -> "Xr_X#1425\nmytest4.c:14";
+"#1409\nmytest4.c:11" -> "Er_e#1466\nmytest4.c:23";
+"#1409\nmytest4.c:11" -> "#1527\nmytest4.c:39";
+"Xw_X#1410\nmytest4.c:12" -> "Xw_X#1547\nmytest4.c:49";
+"Xr_X#1411\nmytest4.c:12" -> "Xr_X#1548\nmytest4.c:49";
+"Ew_outputeffect#1412\nmytest4.c:12" -> "Ew_my_func-singleton#1541\nmytest4.c:58";
+"Er_outputeffect#1413\nmytest4.c:12" -> "Er_my_func-singleton#1542\nmytest4.c:58";
+"Ew_inputeffect#1414\nmytest4.c:12" -> "Ew_my_func-singleton#1541\nmytest4.c:58";
+"Er_inputeffect#1415\nmytest4.c:12" -> "Er_my_func-singleton#1542\nmytest4.c:58";
+"#1416\nmytest4.c:12" -> "#1546\nmytest4.c:49";
+"#1417\nmytest4.c:12" -> "#1544\nmytest4.c:49";
+"#1418\nmytest4.c:12" -> "#1543\nmytest4.c:49";
+"#1419\nmytest4.c:12" -> "Xr_X#1425\nmytest4.c:14";
+"#1419\nmytest4.c:12" -> "Er_e#1497\nmytest4.c:31";
+"#1419\nmytest4.c:12" -> "#1545\nmytest4.c:49";
+"Ew_main-output#1426\nmytest4.c:20" -> "Ew_e#1519\nmytest4.c:35";
+"Ew_main-output#1426\nmytest4.c:20" -> "Ew_after-return#1521\nmytest4.c:36";
+"Er_main-output#1427\nmytest4.c:20" -> "Er_e#1520\nmytest4.c:35";
+"Er_main-output#1427\nmytest4.c:20" -> "Er_after-return#1522\nmytest4.c:36";
+"#1428\nmytest4.c:15" -> "Xr_X#1425\nmytest4.c:14";
+"#1428\nmytest4.c:15" -> "Er_e#1466\nmytest4.c:23";
+"#1429\nmytest4.c:15" -> "Xr_X#1425\nmytest4.c:14";
+"#1429\nmytest4.c:15" -> "Er_e#1466\nmytest4.c:23";
+"#1430\nmytest4.c:16" -> "Xr_X#1425\nmytest4.c:14";
+"#1430\nmytest4.c:16" -> "Er_e#1497\nmytest4.c:31";
+"#1431\nmytest4.c:19" -> "Xw_X#1424\nmytest4.c:14";
+"#1431\nmytest4.c:19" -> "Xr_X#1425\nmytest4.c:14";
+"#1431\nmytest4.c:19" -> "#1432\nmytest4.c:22";
+"#1431\nmytest4.c:19" -> "Ew_e#1439\nmytest4.c:18";
+"#1431\nmytest4.c:19" -> "Er_e#1448\nmytest4.c:20";
+"#1431\nmytest4.c:19" -> "Er_e#1462\nmytest4.c:22";
+"#1431\nmytest4.c:19" -> "Er_e#1466\nmytest4.c:23";
+"#1431\nmytest4.c:19" -> "Ew_e#1482\nmytest4.c:24";
+"#1431\nmytest4.c:19" -> "Er_e#1483\nmytest4.c:24";
+"#1432\nmytest4.c:22" -> "#1474\nmytest4.c:24";
+"Ew_e#1433\nmytest4.c:33" -> "Ew_main-input#1420\nmytest4.c:14";
+"Er_e#1434\nmytest4.c:33" -> "Er_main-input#1421\nmytest4.c:14";
+"Ew_e#1435\nmytest4.c:33" -> "Ew_e#1433\nmytest4.c:33";
+"Er_e#1436\nmytest4.c:33" -> "Er_e#1434\nmytest4.c:33";
+"#1437\nmytest4.c:18" -> "#1392\nmytest4.c:5";
+"#1438\nmytest4.c:18" -> "#1393\nmytest4.c:5";
+"Ew_e#1439\nmytest4.c:18" -> "Ew_e#1435\nmytest4.c:33";
+"Er_e#1440\nmytest4.c:18" -> "Er_e#1436\nmytest4.c:33";
+"Ew_e#1441\nmytest4.c:20" -> "Ew_e#1439\nmytest4.c:18";
+"Er_e#1442\nmytest4.c:20" -> "Er_e#1440\nmytest4.c:18";
+"Ew_e#1443\nmytest4.c:20" -> "Ew_e#1441\nmytest4.c:20";
+"Ew_e#1443\nmytest4.c:20" -> "Ew_e#1482\nmytest4.c:24";
+"Er_e#1444\nmytest4.c:20" -> "Er_e#1442\nmytest4.c:20";
+"Er_e#1444\nmytest4.c:20" -> "Er_e#1483\nmytest4.c:24";
+"Ew_e#1445\nmytest4.c:20" -> "Ew_e#1443\nmytest4.c:20";
+"Er_e#1446\nmytest4.c:20" -> "Er_e#1444\nmytest4.c:20";
+"Ew_e#1447\nmytest4.c:20" -> "Ew_e#1445\nmytest4.c:20";
+"Er_e#1448\nmytest4.c:20" -> "Er_e#1446\nmytest4.c:20";
+"Ew_e#1449\nmytest4.c:20" -> "Ew_e#1447\nmytest4.c:20";
+"Er_e#1450\nmytest4.c:20" -> "Er_e#1448\nmytest4.c:20";
+"Ew_e#1451\nmytest4.c:20" -> "Ew_e#1449\nmytest4.c:20";
+"Ew_e#1451\nmytest4.c:20" -> "Ew_e#1482\nmytest4.c:24";
+"Er_e#1452\nmytest4.c:20" -> "Er_e#1450\nmytest4.c:20";
+"Er_e#1452\nmytest4.c:20" -> "Er_e#1483\nmytest4.c:24";
+"Ew_join#1455\nmytest4.c:20" -> "Ew_e#1447\nmytest4.c:20";
+"Ew_join#1455\nmytest4.c:20" -> "Ew_goto-effect#1453\nmytest4.c:20";
+"Er_join#1456\nmytest4.c:20" -> "Er_e#1448\nmytest4.c:20";
+"Er_join#1456\nmytest4.c:20" -> "Er_goto-effect#1454\nmytest4.c:20";
+"Ew_e#1457\nmytest4.c:20" -> "Ew_join#1455\nmytest4.c:20";
+"Er_e#1458\nmytest4.c:20" -> "Er_join#1456\nmytest4.c:20";
+"Ew_e#1459\nmytest4.c:20" -> "Ew_e#1457\nmytest4.c:20";
+"Er_e#1460\nmytest4.c:20" -> "Er_e#1458\nmytest4.c:20";
+"Ew_e#1461\nmytest4.c:22" -> "Ew_e#1459\nmytest4.c:20";
+"Er_e#1462\nmytest4.c:22" -> "Er_e#1460\nmytest4.c:20";
+"#1463\nmytest4.c:23" -> "#1388\nmytest4.c:4";
+"#1464\nmytest4.c:23" -> "#1389\nmytest4.c:4";
+"Ew_e#1465\nmytest4.c:23" -> "Ew_e#1461\nmytest4.c:22";
+"Er_e#1466\nmytest4.c:23" -> "Er_e#1462\nmytest4.c:22";
+"Ew_reannot-in#1467\nmytest4.c:24" -> "Ew_forked-effect#1478\nmytest4.c:24";
+"Er_reannot-in#1468\nmytest4.c:24" -> "Er_forked-effect#1479\nmytest4.c:24";
+"Xw_X#1469\nmytest4.c:24" -> "Xw_X#1424\nmytest4.c:14";
+"Xr_X#1470\nmytest4.c:24" -> "Xr_X#1425\nmytest4.c:14";
+"Ew_fork-effect#1476\nmytest4.c:24" -> "Ew_e#1465\nmytest4.c:23";
+"Ew_fork-effect#1476\nmytest4.c:24" -> "Ew_e#1480\nmytest4.c:24";
+"Er_fork-effect#1477\nmytest4.c:24" -> "Er_e#1466\nmytest4.c:23";
+"Er_fork-effect#1477\nmytest4.c:24" -> "Er_e#1481\nmytest4.c:24";
+"Ew_forked-effect#1478\nmytest4.c:24" -> "Ew_e#1465\nmytest4.c:23";
+"Er_forked-effect#1479\nmytest4.c:24" -> "Er_e#1466\nmytest4.c:23";
+"Ew_e#1482\nmytest4.c:24" -> "Ew_e#1443\nmytest4.c:20";
+"Ew_e#1482\nmytest4.c:24" -> "Ew_fork-effect#1476\nmytest4.c:24";
+"Er_e#1483\nmytest4.c:24" -> "Er_e#1444\nmytest4.c:20";
+"Er_e#1483\nmytest4.c:24" -> "Er_fork-effect#1477\nmytest4.c:24";
+"Ew_e#1484\nmytest4.c:20" -> "Ew_e#1451\nmytest4.c:20";
+"Er_e#1485\nmytest4.c:20" -> "Er_e#1452\nmytest4.c:20";
+"Ew_e#1486\nmytest4.c:20" -> "Ew_e#1484\nmytest4.c:20";
+"Er_e#1487\nmytest4.c:20" -> "Er_e#1485\nmytest4.c:20";
+"Ew_e#1488\nmytest4.c:27" -> "Ew_e#1486\nmytest4.c:20";
+"Er_e#1489\nmytest4.c:27" -> "Er_e#1487\nmytest4.c:20";
+"Ew_e#1490\nmytest4.c:28" -> "Ew_e#1488\nmytest4.c:27";
+"Er_e#1491\nmytest4.c:28" -> "Er_e#1489\nmytest4.c:27";
+"Ew_e#1492\nmytest4.c:29" -> "Ew_e#1490\nmytest4.c:28";
+"Er_e#1493\nmytest4.c:29" -> "Er_e#1491\nmytest4.c:28";
+"Ew_e#1494\nmytest4.c:30" -> "Ew_e#1492\nmytest4.c:29";
+"Er_e#1495\nmytest4.c:30" -> "Er_e#1493\nmytest4.c:29";
+"Ew_e#1496\nmytest4.c:31" -> "Ew_e#1494\nmytest4.c:30";
+"Er_e#1497\nmytest4.c:31" -> "Er_e#1495\nmytest4.c:30";
+"Ew_reannot-in#1498\nmytest4.c:32" -> "Ew_forked-effect#1509\nmytest4.c:32";
+"Er_reannot-in#1499\nmytest4.c:32" -> "Er_forked-effect#1510\nmytest4.c:32";
+"Xw_X#1500\nmytest4.c:32" -> "Xw_X#1424\nmytest4.c:14";
+"Xr_X#1501\nmytest4.c:32" -> "Xr_X#1425\nmytest4.c:14";
+"Ew_fork-effect#1507\nmytest4.c:32" -> "Ew_e#1496\nmytest4.c:31";
+"Ew_fork-effect#1507\nmytest4.c:32" -> "Ew_e#1511\nmytest4.c:32";
+"Er_fork-effect#1508\nmytest4.c:32" -> "Er_e#1497\nmytest4.c:31";
+"Er_fork-effect#1508\nmytest4.c:32" -> "Er_e#1512\nmytest4.c:32";
+"Ew_forked-effect#1509\nmytest4.c:32" -> "Ew_e#1496\nmytest4.c:31";
+"Er_forked-effect#1510\nmytest4.c:32" -> "Er_e#1497\nmytest4.c:31";
+"Ew_e#1513\nmytest4.c:32" -> "Ew_fork-effect#1507\nmytest4.c:32";
+"Er_e#1514\nmytest4.c:32" -> "Er_fork-effect#1508\nmytest4.c:32";
+"Ew_e#1515\nmytest4.c:33" -> "Ew_e#1513\nmytest4.c:32";
+"Er_e#1516\nmytest4.c:33" -> "Er_e#1514\nmytest4.c:32";
+"Ew_e#1517\nmytest4.c:34" -> "Ew_e#1515\nmytest4.c:33";
+"Er_e#1518\nmytest4.c:34" -> "Er_e#1516\nmytest4.c:33";
+"Ew_e#1519\nmytest4.c:35" -> "Ew_e#1517\nmytest4.c:34";
+"Er_e#1520\nmytest4.c:35" -> "Er_e#1518\nmytest4.c:34";
+"Ew_run-singleton#1523\nmytest4.c:45" -> "Ew_outputeffect#1402\nmytest4.c:11";
+"Ew_run-singleton#1523\nmytest4.c:45" -> "Ew_inputeffect#1404\nmytest4.c:11";
+"Ew_run-singleton#1523\nmytest4.c:45" -> "Ew_reannot-out#1536\nmytest4.c:43";
+"Er_run-singleton#1524\nmytest4.c:45" -> "Er_outputeffect#1403\nmytest4.c:11";
+"Er_run-singleton#1524\nmytest4.c:45" -> "Er_inputeffect#1405\nmytest4.c:11";
+"Er_run-singleton#1524\nmytest4.c:45" -> "Er_reannot-out#1537\nmytest4.c:43";
+"#1525\nmytest4.c:39" -> "#1408\nmytest4.c:11";
+"#1526\nmytest4.c:39" -> "#1407\nmytest4.c:11";
+"#1526\nmytest4.c:39" -> "Er_run-singleton#1524\nmytest4.c:45";
+"#1526\nmytest4.c:39" -> "Xr_X#1530\nmytest4.c:39";
+"#1527\nmytest4.c:39" -> "#1409\nmytest4.c:11";
+"#1528\nmytest4.c:39" -> "#1406\nmytest4.c:11";
+"Xw_X#1529\nmytest4.c:39" -> "Xw_X#1400\nmytest4.c:11";
+"Xr_X#1530\nmytest4.c:39" -> "Xr_X#1401\nmytest4.c:11";
+"#1531\nmytest4.c:43" -> "#1539\nmytest4.c:43";
+"Ew_reannot-in#1532\nmytest4.c:43" -> "Ew_run-singleton#1523\nmytest4.c:45";
+"Er_reannot-in#1533\nmytest4.c:43" -> "Er_run-singleton#1524\nmytest4.c:45";
+"Xw_X#1534\nmytest4.c:43" -> "Xw_X#1529\nmytest4.c:39";
+"Xr_X#1535\nmytest4.c:43" -> "Xr_X#1530\nmytest4.c:39";
+"#1538\nmytest4.c:43" -> "#1528\nmytest4.c:39";
+"Ew_my_func-singleton#1541\nmytest4.c:58" -> "Ew_outputeffect#1412\nmytest4.c:12";
+"Ew_my_func-singleton#1541\nmytest4.c:58" -> "Ew_inputeffect#1414\nmytest4.c:12";
+"Er_my_func-singleton#1542\nmytest4.c:58" -> "Er_outputeffect#1413\nmytest4.c:12";
+"Er_my_func-singleton#1542\nmytest4.c:58" -> "Er_inputeffect#1415\nmytest4.c:12";
+"#1543\nmytest4.c:49" -> "#1418\nmytest4.c:12";
+"#1544\nmytest4.c:49" -> "#1417\nmytest4.c:12";
+"#1545\nmytest4.c:49" -> "#1419\nmytest4.c:12";
+"#1546\nmytest4.c:49" -> "#1416\nmytest4.c:12";
+"Xw_X#1547\nmytest4.c:49" -> "Xw_X#1410\nmytest4.c:12";
+"Xr_X#1548\nmytest4.c:49" -> "Xr_X#1411\nmytest4.c:12";
+"#1432\nmytest4.c:22" -> "#1549\nmytest4.c:39" [label="(1"];
+"Ew_reannot-out#1471\nmytest4.c:24" -> "Ew_outputeffect#1402\nmytest4.c:11" [label="(1"];
+"Er_reannot-out#1472\nmytest4.c:24" -> "Er_outputeffect#1403\nmytest4.c:11" [label="(1"];
+"#1474\nmytest4.c:24" -> "#1407\nmytest4.c:11" [label="(1"];
+"Ew_reannot-out#1502\nmytest4.c:32" -> "Ew_outputeffect#1412\nmytest4.c:12" [label="(2"];
+"Er_reannot-out#1503\nmytest4.c:32" -> "Er_outputeffect#1413\nmytest4.c:12" [label="(2"];
+"#1505\nmytest4.c:32" -> "#1417\nmytest4.c:12" [label="(2"];
+"Ew_reannot-out#1536\nmytest4.c:43" -> "Ew_outputeffect#1380\n/usr/include/stdio.h:332" [label="(3"];
+"Er_reannot-out#1537\nmytest4.c:43" -> "Er_outputeffect#1381\n/usr/include/stdio.h:332" [label="(3"];
+"#1539\nmytest4.c:43" -> "#1385\n/usr/include/stdio.h:332" [label="(3"];
+"Xw_X#1378\n/usr/include/stdio.h:332" -> "Xw_X#1534\nmytest4.c:43" [label=")3"];
+"Xr_X#1379\n/usr/include/stdio.h:332" -> "Xr_X#1535\nmytest4.c:43" [label=")3"];
+"Ew_inputeffect#1382\n/usr/include/stdio.h:332" -> "Ew_reannot-in#1532\nmytest4.c:43" [label=")3"];
+"Er_inputeffect#1383\n/usr/include/stdio.h:332" -> "Er_reannot-in#1533\nmytest4.c:43" [label=")3"];
+"#1384\n/usr/include/stdio.h:332" -> "#1538\nmytest4.c:43" [label=")3"];
+"Xw_X#1400\nmytest4.c:11" -> "Xw_X#1469\nmytest4.c:24" [label=")1"];
+"Xr_X#1401\nmytest4.c:11" -> "Xr_X#1470\nmytest4.c:24" [label=")1"];
+"Ew_inputeffect#1404\nmytest4.c:11" -> "Ew_reannot-in#1467\nmytest4.c:24" [label=")1"];
+"Er_inputeffect#1405\nmytest4.c:11" -> "Er_reannot-in#1468\nmytest4.c:24" [label=")1"];
+"#1406\nmytest4.c:11" -> "#1473\nmytest4.c:24" [label=")1"];
+"#1408\nmytest4.c:11" -> "#1475\nmytest4.c:24" [label=")1"];
+"Xw_X#1410\nmytest4.c:12" -> "Xw_X#1500\nmytest4.c:32" [label=")2"];
+"Xr_X#1411\nmytest4.c:12" -> "Xr_X#1501\nmytest4.c:32" [label=")2"];
+"Ew_inputeffect#1414\nmytest4.c:12" -> "Ew_reannot-in#1498\nmytest4.c:32" [label=")2"];
+"Er_inputeffect#1415\nmytest4.c:12" -> "Er_reannot-in#1499\nmytest4.c:32" [label=")2"];
+"#1416\nmytest4.c:12" -> "#1504\nmytest4.c:32" [label=")2"];
+"#1418\nmytest4.c:12" -> "#1506\nmytest4.c:32" [label=")2"];
+"#1549\nmytest4.c:39" -> "#1432\nmytest4.c:22" [label=")1"];
+"#1387\n/usr/include/stdio.h:332" [shape="box"];
+"#1387\n/usr/include/stdio.h:332" [peripheries=2]
+"#1388\nmytest4.c:4" [peripheries=2]
+"#1389\nmytest4.c:4" [peripheries=2]
+"#1390\nmytest4.c:4" [shape="box"];
+"#1391\nmytest4.c:4" [shape="box"];
+"#1391\nmytest4.c:4" [peripheries=2]
+"#1392\nmytest4.c:5" [peripheries=2]
+"#1393\nmytest4.c:5" [shape="box"];
+"#1393\nmytest4.c:5" [peripheries=2]
+"#1394\nmytest4.c:6" [shape="box"];
+"#1394\nmytest4.c:6" [peripheries=2]
+"#1395\nmytest4.c:7" [shape="box"];
+"#1395\nmytest4.c:7" [peripheries=2]
+"#1396\nmytest4.c:8" [peripheries=2]
+"#1397\nmytest4.c:8" [shape="box"];
+"#1398\nmytest4.c:8" [shape="box"];
+"#1398\nmytest4.c:8" [peripheries=2]
+"#1399\nmytest4.c:9" [shape="box"];
+"#1399\nmytest4.c:9" [peripheries=2]
+"#1409\nmytest4.c:11" [shape="box"];
+"#1409\nmytest4.c:11" [peripheries=2]
+"#1419\nmytest4.c:12" [shape="box"];
+"#1419\nmytest4.c:12" [peripheries=2]
+"#1429\nmytest4.c:15" [shape="box"];
+"#1430\nmytest4.c:16" [shape="box"];
+"#1431\nmytest4.c:19" [shape="box"];
+"#1437\nmytest4.c:18" [shape="box"];
+"#1463\nmytest4.c:23" [shape="box"];
+"Ew_e#1480\nmytest4.c:24" [peripheries=2]
+"Er_e#1481\nmytest4.c:24" [peripheries=2]
+"Ew_e#1511\nmytest4.c:32" [peripheries=2]
+"Er_e#1512\nmytest4.c:32" [peripheries=2]
+"#1527\nmytest4.c:39" [shape="box"];
+"#1531\nmytest4.c:43" [shape="box"];
+"#1545\nmytest4.c:49" [shape="box"];
+"#1385\n/usr/include/stdio.h:332" [label="printf.__format\n#1385\n/usr/include/stdio.h:332"]
+"#1387\n/usr/include/stdio.h:332" [label="&printf\n#1387\n/usr/include/stdio.h:332"]
+"#1389\nmytest4.c:4" [label="lock\n#1389\nmytest4.c:4"]
+"#1390\nmytest4.c:4" [label="*lock\n#1390\nmytest4.c:4"]
+"#1391\nmytest4.c:4" [label="&lock\n#1391\nmytest4.c:4"]
+"#1393\nmytest4.c:5" [label="&simple_lock\n#1393\nmytest4.c:5"]
+"#1394\nmytest4.c:6" [label="&shared\n#1394\nmytest4.c:6"]
+"#1395\nmytest4.c:7" [label="&unprotected\n#1395\nmytest4.c:7"]
+"#1396\nmytest4.c:8" [label="arr\n#1396\nmytest4.c:8"]
+"#1397\nmytest4.c:8" [label="*arr\n#1397\nmytest4.c:8"]
+"#1398\nmytest4.c:8" [label="&arr\n#1398\nmytest4.c:8"]
+"#1399\nmytest4.c:9" [label="&simple\n#1399\nmytest4.c:9"]
+"#1407\nmytest4.c:11" [label="run.arg\n#1407\nmytest4.c:11"]
+"#1408\nmytest4.c:11" [label="run.return\n#1408\nmytest4.c:11"]
+"#1409\nmytest4.c:11" [label="&run\n#1409\nmytest4.c:11"]
+"#1417\nmytest4.c:12" [label="my_func.arg\n#1417\nmytest4.c:12"]
+"#1418\nmytest4.c:12" [label="my_func.return\n#1418\nmytest4.c:12"]
+"#1419\nmytest4.c:12" [label="&my_func\n#1419\nmytest4.c:12"]
+"#1428\nmytest4.c:15" [label="t\n#1428\nmytest4.c:15"]
+"#1429\nmytest4.c:15" [label="&t\n#1429\nmytest4.c:15"]
+"#1430\nmytest4.c:16" [label="&t1\n#1430\nmytest4.c:16"]
+"#1431\nmytest4.c:19" [label="&i\n#1431\nmytest4.c:19"]
+"#1432\nmytest4.c:22" [label="a\n#1432\nmytest4.c:22"]
+"#1438\nmytest4.c:18" [label="&simple_lock\n#1438\nmytest4.c:18"]
+"#1464\nmytest4.c:23" [label="&lock[i]\n#1464\nmytest4.c:23"]
+"#1474\nmytest4.c:24" [label="run.arg\n#1474\nmytest4.c:24"]
+"#1475\nmytest4.c:24" [label="run.return\n#1475\nmytest4.c:24"]
+"#1505\nmytest4.c:32" [label="my_func.arg\n#1505\nmytest4.c:32"]
+"#1506\nmytest4.c:32" [label="my_func.return\n#1506\nmytest4.c:32"]
+"#1525\nmytest4.c:39" [label="run.return\n#1525\nmytest4.c:39"]
+"#1526\nmytest4.c:39" [label="arg\n#1526\nmytest4.c:39"]
+"#1527\nmytest4.c:39" [label="&run\n#1527\nmytest4.c:39"]
+"#1531\nmytest4.c:43" [label="const-string\n#1531\nmytest4.c:43"]
+"#1539\nmytest4.c:43" [label="printf.__format\n#1539\nmytest4.c:43"]
+"#1543\nmytest4.c:49" [label="my_func.return\n#1543\nmytest4.c:49"]
+"#1544\nmytest4.c:49" [label="arg\n#1544\nmytest4.c:49"]
+"#1545\nmytest4.c:49" [label="&my_func\n#1545\nmytest4.c:49"]
+"#1549\nmytest4.c:39" [label="void\n#1549\nmytest4.c:39"]
+"#1384\n/usr/include/stdio.h:332" [label="lock effect\n#1384\n/usr/include/stdio.h:332"]
+"#1388\nmytest4.c:4" [label="*lock\n#1388\nmytest4.c:4"]
+"#1392\nmytest4.c:5" [label="simple_lock\n#1392\nmytest4.c:5"]
+"#1406\nmytest4.c:11" [label="lock effect\n#1406\nmytest4.c:11"]
+"#1416\nmytest4.c:12" [label="lock effect\n#1416\nmytest4.c:12"]
+"#1437\nmytest4.c:18" [label="simple_lock\n#1437\nmytest4.c:18"]
+"#1463\nmytest4.c:23" [label="lock[i]\n#1463\nmytest4.c:23"]
+"#1473\nmytest4.c:24" [label="lock effect\n#1473\nmytest4.c:24"]
+"#1504\nmytest4.c:32" [label="lock effect\n#1504\nmytest4.c:32"]
+"#1528\nmytest4.c:39" [label="lock effect\n#1528\nmytest4.c:39"]
+"#1538\nmytest4.c:43" [label="lock effect\n#1538\nmytest4.c:43"]
+"#1546\nmytest4.c:49" [label="lock effect\n#1546\nmytest4.c:49"]
+"e179@mytest4.c:18\n{#1437\nmytest4.c:18}" -> "e184@mytest4.c:35\n+" [style="dotted"];
+"e183@mytest4.c:32\nx" -> "e184@mytest4.c:35\n+" [style="dotted"];
+"e180@mytest4.c:23\n{#1463\nmytest4.c:23}" -> "e182@mytest4.c:24\n+" [style="dotted"];
+"e181@mytest4.c:24\nx" -> "e182@mytest4.c:24\n+" [style="dotted"];
+"#1463\nmytest4.c:23" -> "e180@mytest4.c:23\n{#1463\nmytest4.c:23}" [style="dotted"];
+"#1437\nmytest4.c:18" -> "e179@mytest4.c:18\n{#1437\nmytest4.c:18}" [style="dotted"];
+"e188@mytest4.c:49\nx" -> "e177@mytest4.c:12\nx";
+"e186@mytest4.c:43\nx" -> "e185@mytest4.c:39\nx";
+"e186@mytest4.c:43\nx" -> "e187@mytest4.c:43\nx";
+"e185@mytest4.c:39\nx" -> "e176@mytest4.c:11\nx";
+"e184@mytest4.c:35\n+" -> "e178@mytest4.c:14\nx";
+"e182@mytest4.c:24\n+" -> "e0@:-1\nempty"[label="down"];
+"e177@mytest4.c:12\nx" -> "e188@mytest4.c:49\nx";
+"e177@mytest4.c:12\nx" -> "e183@mytest4.c:32\nx"[label="2"];
+"e176@mytest4.c:11\nx" -> "e185@mytest4.c:39\nx";
+"e176@mytest4.c:11\nx" -> "e181@mytest4.c:24\nx"[label="1"];
+"e175@/usr/include/stdio.h:332\nx" -> "e186@mytest4.c:43\nx"[label="3"];
+"phi#422\nlabel\nmytest4.c:57"->"phi#411\nmy_func_out\nmytest4.c:51";
+"phi#421\nlabel\nmytest4.c:56"->"phi#422\nlabel\nmytest4.c:57";
+"phi#420\nrelease\nmytest4.c:56"->"phi#421\nlabel\nmytest4.c:56";
+"phi#420\nrelease\nmytest4.c:56" -> "#1392\nmytest4.c:5" [label="rel", style="dotted"];
+"phi#419\nlabel\nmytest4.c:55"->"phi#420\nrelease\nmytest4.c:56";
+"phi#418\nlabel\nmytest4.c:54"->"phi#419\nlabel\nmytest4.c:55";
+"phi#417\nacquire\nmytest4.c:54"->"phi#418\nlabel\nmytest4.c:54";
+"phi#417\nacquire\nmytest4.c:54" -> "#1392\nmytest4.c:5" [label="acq", style="dotted"];
+"phi#416\nlabel\nmytest4.c:53"->"phi#417\nacquire\nmytest4.c:54";
+"phi#415\nlabel\nmytest4.c:52"->"phi#416\nlabel\nmytest4.c:53";
+"phi#414\nlabel\nmytest4.c:51"->"phi#415\nlabel\nmytest4.c:52";
+"phi#413\nlabel\nmytest4.c:51"->"phi#414\nlabel\nmytest4.c:51";
+"phi#412\nlabel\nmytest4.c:51"->"phi#413\nlabel\nmytest4.c:51";
+"phi#411\nmy_func_out\nmytest4.c:51"->"phi#353\nout\nmytest4.c:12";
+"phi#410\nmy_func\nmytest4.c:49"->"phi#412\nlabel\nmytest4.c:51";
+"phi#410\nmy_func\nmytest4.c:49"->"phi#354\nin\nmytest4.c:12";
+"phi#409\nlabel\nmytest4.c:44"->"phi#395\nrun_out\nmytest4.c:40";
+"phi#408\nrelease\nmytest4.c:44"->"phi#409\nlabel\nmytest4.c:44";
+"phi#408\nrelease\nmytest4.c:44" -> "#1388\nmytest4.c:4" [label="rel", style="dotted"];
+"phi#407\nlabel\nmytest4.c:43"->"phi#408\nrelease\nmytest4.c:44";
+"phi#406\nout\nmytest4.c:43"->"phi#407\nlabel\nmytest4.c:43";
+"phi#405\ncall\nmytest4.c:43"->"phi#402\nin\nmytest4.c:43";
+"phi#405\ncall\nmytest4.c:43" -> "phi#404\nret\nmytest4.c:43" [label="call(#1538\nmytest4.c:43)", style="dotted"];
+"phi#404\nret\nmytest4.c:43"->"phi#406\nout\nmytest4.c:43";
+"phi#404\nret\nmytest4.c:43" -> "phi#401\nlabel\nmytest4.c:42" [label="return(#1538\nmytest4.c:43)", style="dotted"];
+"phi#403\nout\nmytest4.c:43"->"phi#404\nret\nmytest4.c:43";
+"phi#402\nin\nmytest4.c:43"->"phi#350\nin\n/usr/include/stdio.h:332" [label="(3"];
+"phi#401\nlabel\nmytest4.c:42"->"phi#405\ncall\nmytest4.c:43";
+"phi#400\nlabel\nmytest4.c:41"->"phi#401\nlabel\nmytest4.c:42";
+"phi#399\nacquire\nmytest4.c:41"->"phi#400\nlabel\nmytest4.c:41";
+"phi#399\nacquire\nmytest4.c:41" -> "#1388\nmytest4.c:4" [label="acq", style="dotted"];
+"phi#398\nlabel\nmytest4.c:40"->"phi#399\nacquire\nmytest4.c:41";
+"phi#397\nlabel\nmytest4.c:40"->"phi#398\nlabel\nmytest4.c:40";
+"phi#396\nlabel\nmytest4.c:40"->"phi#397\nlabel\nmytest4.c:40";
+"phi#395\nrun_out\nmytest4.c:40"->"phi#351\nout\nmytest4.c:11";
+"phi#394\nrun\nmytest4.c:39"->"phi#396\nlabel\nmytest4.c:40";
+"phi#394\nrun\nmytest4.c:39"->"phi#352\nin\nmytest4.c:11";
+"phi#393\nlabel\nmytest4.c:35"->"phi#356\nmain_out\nmytest4.c:20";
+"phi#392\nlabel\nmytest4.c:34"->"phi#393\nlabel\nmytest4.c:35";
+"phi#391\nlabel\nmytest4.c:33"->"phi#392\nlabel\nmytest4.c:34";
+"phi#390\nlabel\nmytest4.c:32"->"phi#391\nlabel\nmytest4.c:33";
+"phi#389\nafterfork\nmytest4.c:32"->"phi#390\nlabel\nmytest4.c:32";
+"phi#388\nFORK\nmytest4.c:32"->"phi#386\nin\nmytest4.c:32";
+"phi#386\nin\nmytest4.c:32"->"phi#354\nin\nmytest4.c:12" [label="(2"];
+"phi#385\nlabel\nmytest4.c:31"->"phi#388\nFORK\nmytest4.c:32";
+"phi#385\nlabel\nmytest4.c:31"->"phi#389\nafterfork\nmytest4.c:32";
+"phi#384\nlabel\nmytest4.c:30"->"phi#385\nlabel\nmytest4.c:31";
+"phi#383\nlabel\nmytest4.c:29"->"phi#384\nlabel\nmytest4.c:30";
+"phi#382\nlabel\nmytest4.c:28"->"phi#383\nlabel\nmytest4.c:29";
+"phi#381\nlabel\nmytest4.c:27"->"phi#382\nlabel\nmytest4.c:28";
+"phi#380\nlabel\nmytest4.c:20"->"phi#381\nlabel\nmytest4.c:27";
+"phi#379\nlabel\nmytest4.c:20"->"phi#380\nlabel\nmytest4.c:20";
+"phi#378\nlabel\nmytest4.c:24"->"phi#367\nlabel\nmytest4.c:20";
+"phi#378\nlabel\nmytest4.c:24"->"phi#363\nbeginloop\nmytest4.c:20";
+"phi#377\nafterfork\nmytest4.c:24"->"phi#378\nlabel\nmytest4.c:24";
+"phi#376\nFORK\nmytest4.c:24"->"phi#374\nin\nmytest4.c:24";
+"phi#374\nin\nmytest4.c:24"->"phi#352\nin\nmytest4.c:11" [label="(1"];
+"phi#373\nlabel\nmytest4.c:23"->"phi#376\nFORK\nmytest4.c:24";
+"phi#373\nlabel\nmytest4.c:23"->"phi#377\nafterfork\nmytest4.c:24";
+"phi#372\nnewlock\nmytest4.c:23"->"phi#373\nlabel\nmytest4.c:23";
+"phi#372\nnewlock\nmytest4.c:23" -> "#1463\nmytest4.c:23" [label="new", style="dotted"];
+"phi#371\nlabel\nmytest4.c:22"->"phi#372\nnewlock\nmytest4.c:23";
+"phi#370\nlabel\nmytest4.c:20"->"phi#371\nlabel\nmytest4.c:22";
+"phi#369\nlabel\nmytest4.c:20"->"phi#370\nlabel\nmytest4.c:20";
+"phi#368\n\nmytest4.c:20"->"phi#369\nlabel\nmytest4.c:20";
+"phi#367\nlabel\nmytest4.c:20"->"phi#379\nlabel\nmytest4.c:20";
+"phi#366\nlabel\nmytest4.c:20"->"phi#367\nlabel\nmytest4.c:20";
+"phi#365\nlabel\nmytest4.c:20"->"phi#368\n\nmytest4.c:20";
+"phi#365\nlabel\nmytest4.c:20"->"phi#366\nlabel\nmytest4.c:20";
+"phi#364\nlabel\nmytest4.c:20"->"phi#365\nlabel\nmytest4.c:20";
+"phi#363\nbeginloop\nmytest4.c:20"->"phi#364\nlabel\nmytest4.c:20";
+"phi#362\nlabel\nmytest4.c:20"->"phi#363\nbeginloop\nmytest4.c:20";
+"phi#361\nlabel\nmytest4.c:20"->"phi#362\nlabel\nmytest4.c:20";
+"phi#360\nlabel\nmytest4.c:18"->"phi#361\nlabel\nmytest4.c:20";
+"phi#359\nnewlock\nmytest4.c:18"->"phi#360\nlabel\nmytest4.c:18";
+"phi#359\nnewlock\nmytest4.c:18" -> "#1437\nmytest4.c:18" [label="new", style="dotted"];
+"phi#358\nlabel\nmytest4.c:33"->"phi#359\nnewlock\nmytest4.c:18";
+"phi#357\nlabel\nmytest4.c:33"->"phi#358\nlabel\nmytest4.c:33";
+"phi#355\nmain\nmytest4.c:14"->"phi#357\nlabel\nmytest4.c:33";
+"phi#354\nin\nmytest4.c:12"->"phi#410\nmy_func\nmytest4.c:49";
+"phi#353\nout\nmytest4.c:12"->"phi#411\nmy_func_out\nmytest4.c:51";
+"phi#353\nout\nmytest4.c:12"->"phi#387\nout\nmytest4.c:32" [label=")2"];
+"phi#352\nin\nmytest4.c:11"->"phi#394\nrun\nmytest4.c:39";
+"phi#351\nout\nmytest4.c:11"->"phi#395\nrun_out\nmytest4.c:40";
+"phi#351\nout\nmytest4.c:11"->"phi#375\nout\nmytest4.c:24" [label=")1"];
+"phi#350\nin\n/usr/include/stdio.h:332"->"phi#349\nout\n/usr/include/stdio.h:332";
+"phi#349\nout\n/usr/include/stdio.h:332"->"phi#403\nout\nmytest4.c:43" [label=")3"];
+"phi#349\nout\n/usr/include/stdio.h:332" [shape="diamond"];
+"phi#350\nin\n/usr/include/stdio.h:332" [shape="diamond"];
+"phi#351\nout\nmytest4.c:11" [shape="diamond"];
+"phi#352\nin\nmytest4.c:11" [shape="diamond"];
+"phi#353\nout\nmytest4.c:12" [shape="diamond"];
+"phi#354\nin\nmytest4.c:12" [shape="diamond"];
+"phi#355\nmain\nmytest4.c:14" [shape="diamond"];
+"phi#356\nmain_out\nmytest4.c:20" [shape="diamond"];
+"phi#357\nlabel\nmytest4.c:33" [shape="diamond"];
+"phi#358\nlabel\nmytest4.c:33" [shape="diamond"];
+"phi#359\nnewlock\nmytest4.c:18" [shape="diamond"];
+"phi#360\nlabel\nmytest4.c:18" [shape="diamond"];
+"phi#361\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#362\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#363\nbeginloop\nmytest4.c:20" [shape="diamond"];
+"phi#364\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#365\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#366\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#367\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#368\n\nmytest4.c:20" [shape="diamond"];
+"phi#369\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#370\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#371\nlabel\nmytest4.c:22" [shape="diamond"];
+"phi#372\nnewlock\nmytest4.c:23" [shape="diamond"];
+"phi#373\nlabel\nmytest4.c:23" [shape="diamond"];
+"phi#374\nin\nmytest4.c:24" [shape="diamond"];
+"phi#375\nout\nmytest4.c:24" [shape="diamond"];
+"phi#376\nFORK\nmytest4.c:24" [shape="diamond"];
+"phi#377\nafterfork\nmytest4.c:24" [shape="diamond"];
+"phi#378\nlabel\nmytest4.c:24" [shape="diamond"];
+"phi#379\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#380\nlabel\nmytest4.c:20" [shape="diamond"];
+"phi#381\nlabel\nmytest4.c:27" [shape="diamond"];
+"phi#382\nlabel\nmytest4.c:28" [shape="diamond"];
+"phi#383\nlabel\nmytest4.c:29" [shape="diamond"];
+"phi#384\nlabel\nmytest4.c:30" [shape="diamond"];
+"phi#385\nlabel\nmytest4.c:31" [shape="diamond"];
+"phi#386\nin\nmytest4.c:32" [shape="diamond"];
+"phi#387\nout\nmytest4.c:32" [shape="diamond"];
+"phi#388\nFORK\nmytest4.c:32" [shape="diamond"];
+"phi#389\nafterfork\nmytest4.c:32" [shape="diamond"];
+"phi#390\nlabel\nmytest4.c:32" [shape="diamond"];
+"phi#391\nlabel\nmytest4.c:33" [shape="diamond"];
+"phi#392\nlabel\nmytest4.c:34" [shape="diamond"];
+"phi#393\nlabel\nmytest4.c:35" [shape="diamond"];
+"phi#394\nrun\nmytest4.c:39" [shape="diamond"];
+"phi#395\nrun_out\nmytest4.c:40" [shape="diamond"];
+"phi#396\nlabel\nmytest4.c:40" [shape="diamond"];
+"phi#397\nlabel\nmytest4.c:40" [shape="diamond"];
+"phi#398\nlabel\nmytest4.c:40" [shape="diamond"];
+"phi#399\nacquire\nmytest4.c:41" [shape="diamond"];
+"phi#400\nlabel\nmytest4.c:41" [shape="diamond"];
+"phi#401\nlabel\nmytest4.c:42" [shape="diamond"];
+"phi#402\nin\nmytest4.c:43" [shape="diamond"];
+"phi#403\nout\nmytest4.c:43" [shape="diamond"];
+"phi#404\nret\nmytest4.c:43" [shape="diamond"];
+"phi#405\ncall\nmytest4.c:43" [shape="diamond"];
+"phi#406\nout\nmytest4.c:43" [shape="diamond"];
+"phi#407\nlabel\nmytest4.c:43" [shape="diamond"];
+"phi#408\nrelease\nmytest4.c:44" [shape="diamond"];
+"phi#409\nlabel\nmytest4.c:44" [shape="diamond"];
+"phi#410\nmy_func\nmytest4.c:49" [shape="diamond"];
+"phi#411\nmy_func_out\nmytest4.c:51" [shape="diamond"];
+"phi#412\nlabel\nmytest4.c:51" [shape="diamond"];
+"phi#413\nlabel\nmytest4.c:51" [shape="diamond"];
+"phi#414\nlabel\nmytest4.c:51" [shape="diamond"];
+"phi#415\nlabel\nmytest4.c:52" [shape="diamond"];
+"phi#416\nlabel\nmytest4.c:53" [shape="diamond"];
+"phi#417\nacquire\nmytest4.c:54" [shape="diamond"];
+"phi#418\nlabel\nmytest4.c:54" [shape="diamond"];
+"phi#419\nlabel\nmytest4.c:55" [shape="diamond"];
+"phi#420\nrelease\nmytest4.c:56" [shape="diamond"];
+"phi#421\nlabel\nmytest4.c:56" [shape="diamond"];
+"phi#422\nlabel\nmytest4.c:57" [shape="diamond"];
+}
